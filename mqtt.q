@@ -1,6 +1,6 @@
 /*******************************************************************************************
 / Author: Himanshu Gupta
-/
+
 / This module allows users to connect to a message broker via MQTT messaging protocol.
 / It provides q wrapper, via embedPy, on top of python code which uses a python library called paho-mqtt.
 / Dependencies include python, paho-mqtt and embedPy
@@ -77,3 +77,5 @@ connect:.p.get[`connect;<]
 subscribe:.p.get[`subscribe;<]
 start_session:.p.get[`start_session;<]
 publish:.p.get[`publish;<]
+
+connect_and_subscribe["vmr-mr8v6yiwif6d.messaging.solace.cloud:20908";"topic://test";"solace-cloud-client";"s5f3nliflcbs7v8l4laq96rgon"]
